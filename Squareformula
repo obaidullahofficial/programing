@@ -1,0 +1,14 @@
+#include<conio.h>
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,ans;
+	cout<<"Enter value of a=";
+	cin>>a;
+	cout<<"Enter value of b=";
+	cin>>b;
+	ans=a*a+b*b+2*a*b;
+	cout<<"The answere of  this euation is = "<<ans;
+	getch();
+}
